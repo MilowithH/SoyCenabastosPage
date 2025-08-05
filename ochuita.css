@@ -1,0 +1,348 @@
+body{
+    background: linear-gradient(to left,#88A66A 64vw,#FFFFFF 50vw);
+}
+
+img.a{
+    display: block;
+    margin-left: 3%;
+    margin-top: 1%;
+
+}
+img.a:hover{
+    display: block;
+    margin-left: 3%;
+    margin-top: 1%;
+    transform: scale(1.2);
+    transition: transform 0.15s ease 0.25s;
+}
+@media (max-width: 1250.78px) {
+    .a {
+    visibility: hidden;
+    }
+    
+}
+#fechaHora{
+    color: #000000;
+    font-size:100%;
+    flex-wrap: wrap;
+    margin-top: -8%;
+    margin-left: 40%;
+    text-transform: uppercase;
+    
+    background-color:linear-gradient(to right,#88A66A 50%,#FFFFFF 50%);    
+    font-family: 'Montserrat',  serif;
+}
+@media (max-width: 1250.78px) {
+    #fechaHora {
+    align-items: center;
+    margin-left: 25%;
+    }
+    
+} 
+
+ul{
+    margin-left: 11%;
+    
+}
+
+
+@media (max-width: 1250.78px) {
+    ul {
+        margin: auto;
+        justify-content: center;
+    }
+
+}
+li.nav-item{
+    margin-top: 1%;
+}
+a.nav-link {
+    color: #000000;
+    font-size: 125%;
+    font-family: 'Montserrat',  serif;
+}
+a.nav-link:hover{
+    background-color: #dc3545;
+    color: #FFFFFF;
+    
+}
+.btn-group{
+    margin-top: 1%;
+    background-color: none;
+    color: #000000;
+    font-size: 125%;
+    font-family: 'Montserrat',  serif;
+}
+.btn-group > button{
+    margin-top: 1%;
+    background-color: none;
+    color: #000000;
+    font-size: 100%;
+    font-family: 'Montserrat',  serif;
+}
+.btn-group > button:hover{
+    margin-top: 1%;
+    background-color: #dc3545;
+    color: #FFFFFF;
+    
+    font-size: 100%;
+    font-family: 'Montserrat',  serif;
+}
+.dropdown-menu{
+    background-color: #dc3545;
+    border: 1.5px solid #000000;
+}
+a.dropdown-item{
+    background-color: #dc3545;
+    color: #000000;
+    font-size: 100%;
+    font-family: 'Montserrat',  serif;
+}
+a.dropdown-item:hover{
+    background-color: #dc3545;
+    color: #FFFFFF;
+    font-size: 100%;
+    font-family: 'Montserrat',  serif;
+}
+hr.dropdown-divider{
+    border: 1.5px solid #000000;
+}
+@media (max-width: 1250.78px) {
+    a.nav-link{
+        font-size: 100%;
+    }
+}
+    
+
+p{
+    color: #000000;
+    font-size:300%;
+    text-align: justify;
+    margin-top: 2%;
+    margin-right: 15%;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Montserrat',  serif;
+float: right;
+}
+div.parrafo{
+    
+    font-size:115%;
+    margin-right: 5%;
+    text-align: justify;
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-iteration-count: infinite;
+    font-family: "Montserrat", serif;
+    float: right;
+}
+@keyframes change-color{
+    0%{
+    color: #000000;
+}
+50% {
+    color: #FFFFFF;
+}
+100% {
+    color: #000000;
+}
+
+}
+
+.img{
+    display: grid;
+    width: 40vw;
+    height: auto;
+float: left;
+    margin-top: -27%;
+    margin-left: -10%;
+    margin-right: 65%;
+    float: left;
+    justify-content: center; /* Centra las imágenes dentro del contenedor */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Crea columnas flexibles */
+    gap: 10px; /* Espacio entre los elementos */
+
+    animation-name: change-opacity;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes change-opacity{
+    0%{
+opacity: 100%;
+}
+
+50% {
+    opacity: 75%;
+
+}
+100% {
+    opacity: 100%;
+}
+
+}
+
+footer {
+    background: #dc3545;
+    width: 100%;
+    display: flex;
+
+justify-content: space-between;
+    align-items: center;
+}
+
+footer a img {
+    max-width: 100%;  /* Asegura que las imágenes no se distorsionen */
+    height: auto;     /* Mantiene la proporción original de las imágenes */
+}
+
+.card.mb-3{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    width: 25vw;
+    height: auto;
+}
+h5{
+    font-size: 1em;
+    color: #000000;
+    font-family: 'Montserrat',  serif;  
+}
+h6{
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'Montserrat',  serif;  
+}
+.card-text{
+    width: 13vw;
+    font-size: 0.8em;
+    color: #000000;
+    font-family: 'Montserrat',  serif;  
+}
+.text-body-secondary{
+    font-size: 1em;
+}
+.team{
+    color: #dc3545;
+    text-decoration: none;
+}
+.team:hover{
+    color: #dc3545;
+    text-decoration: none;
+    font-weight: bold;
+}
+.col-md-4 {
+    margin-top: 18%;
+    margin-left: 5%;
+    width: 20%;
+}
+.img-fluid.rounded-start{
+    width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1%;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.nombreycorreo {
+    display: flex;
+    gap: 1rem; /* Espacio entre los campos */
+    width: 100%;
+}
+
+textarea {
+    width: 82.5%;
+    margin-left: -17.5%;
+    align-content: baseline;
+    font-family: 'Montserrat',  serif;  
+    outline: none;
+    margin-top: 1%;
+    border: 1.5px solid #000000;
+    border-radius: 0.5rem;
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+textarea::placeholder{
+    color: #dc3545;
+}
+.nombreycorreo input {
+    background: none;
+    font-family: 'Montserrat',  serif;  
+    outline: none;
+    width: 20vw;
+    border: none;
+    border-bottom: 1.5px solid #000000 ;
+}
+::placeholder{
+    color: #000000;
+}
+
+button.btn-outline-light{
+
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Montserrat',  serif;  
+    margin-top: 2%;
+    margin-left: -20%;
+    width: 50%;
+    height: auto;
+    font-size: 1.2em;
+    text-align: center;
+    align-self: center;
+    border: none;
+
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column; /* Hace que los elementos se apilen en pantallas pequeñas */
+        height: auto;
+    }
+    .card.mb-3{
+        margin-left: -5%;
+        width: 60vw;
+        
+    }
+     .col-md-4{
+        margin-top: 5%;
+    margin-left: 40%;
+         height: 20%;
+    }
+
+    .card-title{
+        text-align: center;
+    }
+    .card-text{
+        width: 50vw;
+        margin-left: 5%;
+        font-size: 0.8em;
+        font-weight: 500;
+        color: #000000;
+        font-family: 'Montserrat',  serif; 
+        text-align: center; 
+    }
+    .nombreycorreo {
+        flex-direction: column; /* Los inputs estarán en una columna */
+    }
+    img.logofooter  {
+        width: 30%; /* Reducción del tamaño de las imágenes en pantallas más pequeñas */
+        margin: auto;
+    }
+    .nombreycorreo input {
+        margin-left: -10%;
+        width: 50vw;
+        
+    }
+    textarea{
+        margin-top: 5%;
+    }
+}
+    
+    

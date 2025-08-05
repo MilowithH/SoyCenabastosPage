@@ -1,0 +1,104 @@
+#pantalla{
+    display: flex ;
+    background-color: #FFFFFF;
+    margin-top: -4%;
+   
+}
+body{
+    background: #FFFFFF;
+}
+img.a{
+    margin-top: 1%;
+    animation-name: change-width;
+    animation-duration: 2.5s;
+    animation-timing-function: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes change-width{
+    0%{
+width: 5%;
+height: auto;
+}
+50% {
+    width: 10%;
+height: auto;
+
+}
+100% {
+    width: 15%;
+height: auto;
+}
+}
+
+
+div.Ochuita{
+    
+    margin-left: 20%;
+    float: right;
+
+}
+form{
+    margin-top: 13%;
+    width: 125%;
+    height: 100%;
+}
+input{
+    color: rgb(0, 2, 27);
+    cursor: pointer;
+    outline: none;
+
+    background:#FFFFFF;
+    
+    width: 125%;
+    height: 6vh;
+    border: 1px solid #198754;
+    border-radius: 10px;
+}
+input:hover{
+    color: #FFFFFF ;
+    cursor: pointer;
+    
+    background:#198754 ;
+    width: 125%;
+    height: 6vh;
+    border: 1px solid #198754 ;
+    border-radius: 10px;
+}
+::placeholder{
+    font-family: 'Montserrat',  serif;  
+    font-size: 115%;
+    color: #000000;
+}
+::placeholder:hover {
+    font-family: 'Montserrat',  serif;  
+
+    text-decoration-color: #FFFFFF;
+}
+div.b{
+    margin-left: 5%;
+    width: 125%;
+    height: 6vh;
+}
+h1{
+    margin-left: -35%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat',  serif;  
+    font-size: 250%;
+    color:#198754;
+    cursor: pointer;
+}
+button.btn-outline-success{
+  
+    margin-left: 25%;
+    background-color: #198754;
+    color: #000000;
+    width: 42.5%;
+    height: 6vh;
+    font-family: 'Montserrat',  serif;  
+    font-size: 125%;
+    text-align: center;
+
+}
+
+
